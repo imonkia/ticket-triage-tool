@@ -1,7 +1,7 @@
 [build]
-builder = "nixpacks"
+builder = "RAILPACK"
 
 [deploy]
 startCommand = "gunicorn app:app"
 healthcheckPath = "/"
-restartPolicyType = "on-failure"
+restartPolicyType = "ON_FAILURE"
