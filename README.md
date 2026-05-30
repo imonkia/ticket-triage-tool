@@ -14,8 +14,10 @@ A full-stack voice support ticket triage tool. Speak a support issue into your m
 
 - Node.js 18+
 - Python 3.11+
-- A [Deepgram](https://deepgram.com) API key (free tier works)
-- An [Anthropic](https://console.anthropic.com) API key
+- A [Deepgram](https://deepgram.com) account and API key (free tier works)
+- An [Anthropic](https://console.anthropic.com) account and API key
+- A [Vercel](https://vercel.com) account (for frontend deployment)
+- A [Railway](https://railway.app) account (for backend deployment)
 
 ### Backend
 
