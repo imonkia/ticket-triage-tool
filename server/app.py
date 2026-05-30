@@ -9,11 +9,7 @@ load_dotenv()
 
 app = Flask(__name__)
 
-allowed_origins = os.getenv("ALLOWED_ORIGINS", "*")
-CORS(app,
-     origins=allowed_origins if allowed_origins == "*" else allowed_origins.split(","),
-     methods=["GET", "POST", "OPTIONS"],
-     allow_headers=["Content-Type"])
+CORS(app, origins=os.getenv("ALLOWED_ORIGINS", "*").split(","))
 
 client = Anthropic()
 
