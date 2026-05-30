@@ -1,5 +1,7 @@
 # Voice Ticket Triage Tool
 
+**Live app:** https://ticket-triage-tool.vercel.app
+
 A full-stack voice support ticket triage tool. Speak a support issue into your microphone; Deepgram transcribes it in real time, then Claude classifies it into a structured triage result.
 
 ## Stack
